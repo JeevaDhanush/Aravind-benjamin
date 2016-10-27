@@ -2,19 +2,19 @@
 #include<conio.h>
 void main()
 {
-	int a;
+	int a=0;
 	printf("\n enter the number");
 	scanf("%d",a);
-	if(a==0)
-	{
-		printf("\n the number is zero");
-	}
 	if(a>0)
 	{
 		printf("\n the number is positive");
 	}
-	else
+	else if(a<0)
 	{
 		printf("\n the number is negative");
+	}
+	else
+	{
+		printf("\n the number is zero");
 	}
 }
